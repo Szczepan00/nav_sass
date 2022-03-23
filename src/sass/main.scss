@@ -1,3 +1,7 @@
-body {
-    font-size: 16px;
-}
+@import "common/normalize";
+
+@import "variables";
+
+@import "utils/functions";
+
+@import "components/menu";
