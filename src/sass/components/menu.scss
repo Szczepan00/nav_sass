@@ -6,13 +6,22 @@
         justify-content: space-between;
         max-width: 1200px;
         margin: 0 auto;
+        @include mq(sm){
+            flex-direction: column;
+        }
     }
 
     &__item{
-       @extend %link
+       @extend %link;
+       text-align: center;
+       padding: 20px;
+       @include link-action{
+           text-decoration: underline;
+       }
     }
 
     &__item--active{
         
     }
 }
+

@@ -350,4 +350,13 @@ template {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 640px) {
+  .ns-menu__box {
+    flex-direction: column;
+  }
+}
+.ns-menu__item {
+  text-align: center;
+  padding: 20px;
+}
 /*# sourceMappingURL=main.css.map */
