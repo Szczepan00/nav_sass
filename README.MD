@@ -1,3 +1,3 @@
 # Navigation
--sass
--gulp
+- sass
+- gulp

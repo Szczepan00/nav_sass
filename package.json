@@ -1,23 +1,23 @@
 {
   "name": "nav_sass",
   "version": "1.0.0",
-  "description": "-sass -gulp",
+  "description": "- sass - gulp",
   "main": "index.js",
   "scripts": {
-    "start":"gulp",
-    "build":"gulp sass"
+    "start": "gulp",
+    "build": "gulp sass"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Szczepan00/nav_sass.git"
+    "url": "git+https://github.com/pawelkonior/nav_sass.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Beerware",
   "bugs": {
-    "url": "https://github.com/Szczepan00/nav_sass/issues"
+    "url": "https://github.com/pawelkonior/nav_sass/issues"
   },
-  "homepage": "https://github.com/Szczepan00/nav_sass#readme",
+  "homepage": "https://github.com/pawelkonior/nav_sass#readme",
   "devDependencies": {
     "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
